@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    display: flex;
+    background-color:white;
+    align-items: center;
+    height: 80px;
+}
+.navbar{
+    margin-left: 250px;
+}
+.icon{
+    padding-left: 150px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    letter-spacing: 5px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 20px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: rgb(49, 47, 47);
+}
+.navbar ul li a:hover{
+    color:rgb(230, 96, 19) ;
+}
+.iclor{
+    color: orange;
+    font-size: 35px;
+}
+/*------heropage*/
+.hero{
+    background-color: black;
+    height: 450px;
+    display: flex;
+}
+.btittle{
+    padding-top: 0px;
+    padding-left: 100px;
+}
+.btittle h1{
+color: white;
+font-size: 50px;
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 1px;
+}
+.bcolor{
+    color: rgb(230, 96, 19);
+}
+.button{
+    display: flex;
+    padding-top: 30px;
+}
+.button1{
+   padding: 10px;
+   font-size: 15px;
+   background-color:rgb(230, 96, 19);
+   color: white;
+   border: none;
+   border-radius: 10px;
+   
+}
+.button2{
+    color: white;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.button1:hover{
+    cursor: pointer;
+}
+.button2:hover{
+    cursor: pointer;
+    background-color:rgb(230, 96, 19);
+}
+
+
+.banerimg{
+    height: 450px;
+    background-color: aqua;
+    margin-top: 0px;
+    margin-left: 150px;
+    width: 100%;
+}
+.banerimg img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+/*----------------------------------------------------indiafood--------------------------------*/
+.foodheading{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+}
+.card{
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    box-shadow: 0px 0px;
+
+}
+.card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.cardbody{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.cardbutton{
+  
+    padding: 10px 20px;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.4s;
+    margin-top: 10px;
+
+}
+.cardbutton:hover{
+    background-color:rgb(211, 87, 15) ;
+    cursor: pointer;
+}
+.footer{
+    background-color:rgb(248, 104, 21) ;
+    height: 300px;
+    margin-top: 50px;
+}
+.footermenu ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 30px;
+}
+.footermenu ul li a{
+    text-decoration: none;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.sociallogo{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.fa-twitter{
+background-color: #55ACEE;
+color: white;
+}
+.fa-facebook{
+    background-color: #3B5998;
+    color: white;
+}
+.fa-instagram{
+    background-color: #125688;
+    color: white;
+}
+.footermenu2{
+    margin-top: 20px;
+}
+.footermenu2 ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footermenu2 ul li a{
+    text-decoration:underline;
+    color: white;
+    margin: 10px;
+    font-family:'Open Sans', sans-serif ;
+}
+
+
+
+
+
+/*-----------------------------------MEDIA QUERIES-------------------------------------------------*/
+@media(max-width:1239px){
+    .btittle{
+        padding-top: 0px;
+    }
+    .btittle h1{
+        text-align: center;
+    }
+}
+@media(max-width:1245px){
+    .navbar{
+        display: none;
+    }
+}
+
+@media(max-width:1197px){
+    .btittle h1{
+        padding-top: 0px;
+        text-align: center;
+    }
+    .banerimg{
+        display: none;
+    }
+}
+@media(max-width:900px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+}
